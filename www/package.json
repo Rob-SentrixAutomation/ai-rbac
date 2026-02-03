@@ -1,0 +1,44 @@
+{
+  "name": "rbac-admin",
+  "version": "1.0.0",
+  "description": "RBAC权限管理系统前端",
+  "author": "RBAC Team",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build:prod": "vue-cli-service build",
+    "build:stage": "vue-cli-service build --mode staging",
+    "preview": "node build/index.js --preview",
+    "lint": "eslint --ext .js,.vue src",
+    "lint:fix": "eslint --ext .js,.vue src --fix"
+  },
+  "dependencies": {
+    "vue": "2.6.14",
+    "vue-router": "3.5.3",
+    "vuex": "3.6.2",
+    "element-ui": "2.15.13",
+    "axios": "0.27.2",
+    "js-cookie": "3.0.1",
+    "normalize.css": "8.0.1",
+    "nprogress": "0.2.0",
+    "path-to-regexp": "6.2.1",
+    "screenfull": "5.2.0",
+    "svg-sprite-loader": "6.0.11",
+    "@riophae/vue-treeselect": "^0.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.5.19",
+    "@vue/cli-plugin-eslint": "4.5.19",
+    "@vue/cli-service": "4.5.19",
+    "babel-eslint": "10.1.0",
+    "eslint": "6.8.0",
+    "eslint-plugin-vue": "6.2.2",
+    "sass": "1.54.0",
+    "sass-loader": "10.2.1",
+    "vue-template-compiler": "2.6.14"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">= 6.0.0"
+  }
+}
